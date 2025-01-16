@@ -8,18 +8,18 @@ import TransformStep from "../components/TransformStep";
 import { validateTransformers } from "../lib/validators";
 import { generateOutput } from "../lib/output-generator";
 import { steps } from "../data/steps";
-import { example as value } from "../data/examples";
+import { inputExample, transformersExample } from "../data/examples";
 import useEditorState from "../hooks/useEditorState";
 
 const Home: NextPage = () => {
-  const [inputJson, setInputJson, inputJsonRef] = useEditorState(value);
+  const [inputJson, setInputJson, inputJsonRef] = useEditorState(inputExample);
   const [
     transformers,
     setTransformers,
     transformersRef,
     transformersErrors,
     setTransformersErrors,
-  ] = useEditorState({});
+  ] = useEditorState(transformersExample);
   const [generatedOutput, setGenerateOut] = useEditorState();
   const [transformersEditor, setTransformersEditor, transformersEditorRef] = useEditorState();
 

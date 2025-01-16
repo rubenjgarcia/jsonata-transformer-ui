@@ -1,6 +1,6 @@
 {
   "name": "jsonnata-transformer-ui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,12 +15,11 @@
     "@tailwindcss/forms": "^0.5.0",
     "copy-text-to-clipboard": "^3.0.1",
     "jsonata": "^2.0.3",
-    "lodash.get": "^4.4.2",
-    "lodash.set": "^4.3.2",
+    "lodash": "^4.17.21",
     "monaco-themes": "^0.4.0",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "next": "^15.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-toastify": "^8.2.0"
   },
   "devDependencies": {

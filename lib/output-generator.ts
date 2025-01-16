@@ -1,4 +1,4 @@
-import set from "lodash.set";
+import set from "lodash/set";
 import { traverse } from "./object-utils";
 import jsonata from "jsonata";
 

@@ -1,4 +1,4 @@
-import get from "lodash.get";
+import get from "lodash/get";
 import { traverse } from "./object-utils";
 import {} from "@monaco-editor/react";
 import jsonata from "jsonata";
